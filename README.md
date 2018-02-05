@@ -39,7 +39,7 @@ THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_Wit
 * `-C` specifies angular resolution of LF data for evaluation
 * `-S` save results
 
-The results will be saved under the folder named `6scenes_tip_eval_l7f4` in this script.
+The results will be saved under the folder named `6scenes_tip_eval_l7_f4` in this script.
 Meanwhile, a `.log` file named `LFNet_Test.log` and a `.mat` file named `performance_stat.mat` will be generated as output, recording details of the evaluation process (`date`, `model options`, `PSNR`, `SSIM`, `Elapsed Time` and so on)
 
 
