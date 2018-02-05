@@ -33,6 +33,7 @@ def test_LFNet(
         train_length = 7,
         crop_length = 7,
         factor = 3,
+        weight_row = 0.5,
         save_results = False
 ):
 
@@ -208,7 +209,6 @@ def test_LFNet(
         log.info('='*40)
         s_time = time.time()
         log.info('LFNet SR running.....')
-        weight_row = 0.5832
         log.info('>>>> Row Network')
         for s_n in range(s_res):
             row_seq = np.transpose(lr_lf[:,:,s_n,:],(2,0,1))
@@ -304,4 +304,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     test_LFNet(path=args.path,model_path=args.model_path,factor=args.factor, train_length=args.train_length,
-               crop_length=args.crop_length, scene_names=args.scenes, save_results=args.save_results)
+               crop_length=args.crop_length, scene_names=args.scenes, save_results=args.save_results,
+               weight_row=args.weight_row)

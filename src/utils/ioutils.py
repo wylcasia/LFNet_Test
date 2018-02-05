@@ -29,6 +29,9 @@ def opts_parser():
         '-C', '--crop_length', type=int, default=7, metavar='CROP_LENGTH',
         help='Crop Length from Initial LF: (default: %(default)s)')
     parser.add_argument(
+        '-W', '--weight_row', type=float, default=0.5, metavar='WEIGHT_ROW',
+        help='Weighting Row Network: (default: %(default)s)')
+    parser.add_argument(
         '-S', '--save_results', dest='save_results', action='store_true',
         help='Save Results or Not')
 
