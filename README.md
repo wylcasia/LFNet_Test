@@ -1,7 +1,10 @@
 # LFNet_TEST
 
 ## LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-field Image Super-resolution
+### Yunlong Wang, Fei Liu, Kunbo Zhang, Guangqi Hou, Zhenan Sun, Tieniu Tan
 submitted to IEEE Transactions on Image Processing
+
+
 
 ## Datasets
 The dataset `6scene_tip` for quantitative evaluations (see `TABLE II` in the paper) can be downloaded from [here](https://pan.baidu.com/s/1i5ZnXRn).
@@ -39,7 +42,6 @@ THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_Wit
 The results will be saved under the folder named `6scenes_tip_eval_l7f4` in this script.
 Meanwhile, a `.log` file named `LFNet_Test.log` and a `.mat` file named `performance_stat.mat` will be generated as output, recording details of the evaluation process (`date`, `model options`, `PSNR`, `SSIM`, `Elapsed Time` and so on)
 
-## Evaluation Results
 
 
 
