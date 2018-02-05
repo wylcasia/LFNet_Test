@@ -236,10 +236,10 @@ def test_LFNet(
             for t_n in xrange(t_res):
 
                 gt_img = lf[:,:,0,s_n,t_n]
-                view_img = np.clip(output_lf[:,:,s_n,t_n],gt_img.min(),gt_img.max())
+                view_img = output_lf[:,:,s_n,t_n]
 
-                this_PSNR = psnr(gt_img,view_img)
-                this_SSIM = ssim(gt_img,view_img)
+                this_PSNR = psnr(view_img,gt_img)
+                this_SSIM = ssim(view_img,gt_img)
 
                 # this_PSNR = psnr(np.uint8(view_img*255.0),np.uint8(gt_img*255.0))
                 # this_SSIM = ssim(np.uint8(view_img*255.0),np.uint8(gt_img*255.0))
