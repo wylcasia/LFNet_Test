@@ -3,9 +3,7 @@
 ## LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-field Image Super-resolution
 ### Yunlong Wang, Fei Liu, Kunbo Zhang, Guangqi Hou, Zhenan Sun, Tieniu Tan
 
-@ARTICLE{
-
-8356655, 
+@ARTICLE{LFNet_wang_2018, 
 
 author={Y. Wang and F. Liu and K. Zhang and G. Hou and Z. Sun and T. Tan}, 
 
