@@ -40,7 +40,7 @@ sudo pip install argparse h5py numpy scikit-image theano
 Run the following command in terminal to evaluate the pre-trained LFNet model on `6scenes_tip`
 
 ```
-THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_With_log.py --path ./DATA_FOLDER --scene Stone Glass Pillar Flower Bush Door --model_path ./model -F 4 -T 7 -C 7 -S
+THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_With_log.py --path ./DATA_FOLDER --scene SCENE_NAME1 SCENE_NAME2 SCENE_NAME3 --model_path ./model -F 4 -T 7 -C 7 -S
 ```
 * `THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32` specifies configurations of [Theano packages](http://www.deeplearning.net/software/theano/)
 * `--path` will load the datasets for evalution from this path
