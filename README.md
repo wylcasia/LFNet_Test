@@ -13,19 +13,9 @@ journal={IEEE Transactions on Image Processing},
 
 title={LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-Field Image Super-Resolution}, 
 
-year={2018}, 
+year={2018}, volume={27}, number={9}, pages={4274-4286}, 
 
-volume={27}, 
-
-number={9}, 
-
-pages={4274-4286}, 
-
-doi={10.1109/TIP.2018.2834819}, 
-
-ISSN={1057-7149}, 
-
-month={Sept},}
+doi={10.1109/TIP.2018.2834819}, ISSN={1057-7149}, month={Sept}}
 
 [webpage](https://ieeexplore.ieee.org/document/8356655/)
 
