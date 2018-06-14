@@ -37,7 +37,7 @@ sudo pip install argparse h5py numpy scikit-image theano
 ```
 
 ## Usage
-Run the following command in terminal to evaluate the pre-trained LFNet model on `6scenes_tip`
+Run the following command in terminal to evaluate the pre-trained LFNet model on LF Scenes stored under the folder `DATA_FOLDER` with `.mat` files named `SCENE_NAME1.mat`, `SCENE_NAME2.mat`, `SCENE_NAME3.mat`
 
 ```
 THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_With_log.py --path ./DATA_FOLDER --scene SCENE_NAME1 SCENE_NAME2 SCENE_NAME3 --model_path ./model -F 4 -T 7 -C 7 -S
