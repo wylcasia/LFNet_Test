@@ -2,7 +2,19 @@
 
 ## LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-field Image Super-resolution
 ### Yunlong Wang, Fei Liu, Kunbo Zhang, Guangqi Hou, Zhenan Sun, Tieniu Tan
-submitted to IEEE Transactions on Image Processing
+
+@ARTICLE{8356655, 
+author={Y. Wang and F. Liu and K. Zhang and G. Hou and Z. Sun and T. Tan}, 
+journal={IEEE Transactions on Image Processing}, 
+title={LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-Field Image Super-Resolution}, 
+year={2018}, 
+volume={27}, 
+number={9}, 
+pages={4274-4286}, 
+keywords={Cameras;Correlation;Image reconstruction;Lenses;Microoptics;Spatial resolution;Implicitly multi-scale fusion;bidirectional recurrent convolutional neural network;light-field;super-resolution}, 
+doi={10.1109/TIP.2018.2834819}, 
+ISSN={1057-7149}, 
+month={Sept},}[webpage](https://ieeexplore.ieee.org/document/8356655/)
 
 
 
