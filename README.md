@@ -3,7 +3,7 @@
 ## LFNet: A Novel Bidirectional Recurrent Convolutional Neural Network for Light-field Image Super-resolution
 ### Yunlong Wang, Fei Liu, Kunbo Zhang, Guangqi Hou, Zhenan Sun, Tieniu Tan
 
-@ARTICLE{LFNet_wang_2018, 
+@ARTICLE{LFNet_Wang_2018, 
 
 author={Y. Wang and F. Liu and K. Zhang and G. Hou and Z. Sun and T. Tan}, 
 
@@ -37,7 +37,7 @@ sudo pip install argparse h5py numpy scikit-image theano
 ```
 
 ## Usage
-Run the following command in terminal to evaluate the pre-trained LFNet model on LF Scenes stored under the folder `DATA_FOLDER` with `.mat` files named `SCENE_NAME1.mat`, `SCENE_NAME2.mat`, `SCENE_NAME3.mat`
+Run the following command line in terminal to evaluate the pre-trained LFNet model on LF Scenes stored under the folder `DATA_FOLDER` with `.mat` files named `SCENE_NAME1.mat`, `SCENE_NAME2.mat`, `SCENE_NAME3.mat`
 
 ```
 THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_With_log.py --path ./DATA_FOLDER --scene SCENE_NAME1 SCENE_NAME2 SCENE_NAME3 --model_path ./model -F 4 -T 7 -C 7 -S
