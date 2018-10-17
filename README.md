@@ -46,7 +46,7 @@ THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python LFNet_Test_Mat_Wit
 * `--path` will load the datasets for evalution from this path
 * `--scene` stands for the namelist of LF scenes
 * `--model_path` will load the pre-trained models for evaluation from this path
-* `-F` stands for upsampling factor (default 4 as in the paper)
+* `-F` stands for upsampling factor (default 4x as in the paper, 2x 3x models also supported)
 * `-T` specifies angular resolution of training LF data (only support choices from [7,9])
 * `-C` specifies angular resolution of LF data for evaluation
 * `-S` save results
